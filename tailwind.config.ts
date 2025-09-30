@@ -97,12 +97,17 @@ export default {
           '0%': { transform: 'scaleX(0) rotate(45deg)' },
           '100%': { transform: 'scaleX(1) rotate(45deg)' },
         },
+        'jump-forward': {
+          '0%, 100%': { transform: 'scale(1)', },
+          '50%': { transform: 'scale(1.05)', },
+        }
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
         'draw-x-1': 'draw-x-1 0.3s ease-out forwards',
         'draw-x-2': 'draw-x-2 0.3s ease-out 0.2s forwards',
+        'jump-forward': 'jump-forward 1.5s ease-in-out infinite',
       },
     },
   },
