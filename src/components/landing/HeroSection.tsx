@@ -43,7 +43,7 @@ export default function HeroSection() {
       {/* Mobile View */}
       <div className="md:hidden w-full relative aspect-[9/16] bg-primary/40 flex items-center justify-center">
         <Image
-          src="https://freeimage.host/i/KGapeKx"
+          src="https://i.postimg.cc/3NHKHxNb/musica.jpg"
           alt="Ouvido Mestre - Toque qualquer música sem depender de cifra"
           fill
           className="object-contain"
