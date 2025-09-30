@@ -9,19 +9,20 @@ const GuaranteeSeal = () => (
     xmlns="http://www.w3.org/2000/svg"
     className="mx-auto"
   >
-    <path
-      id="circlePath"
-      d="M 80, 20 a 60,60 0 1,1 0,120 a 60,60 0 1,1 0,-120"
-      fill="transparent"
-    />
+    <defs>
+      <path
+        id="circlePath"
+        d="M 80, 20 a 60,60 0 1,1 -0.01,0"
+        fill="transparent"
+      />
+    </defs>
     <circle cx="80" cy="80" r="48" fill="#FF7700" />
     <text
       fill="#1C4D82"
-      dy="-10"
-      textAnchor="middle"
-      style={{ fontSize: '20px', fontWeight: 'bold', letterSpacing: '2px' }}
+      dy="-8"
+      style={{ fontSize: '20px', fontWeight: 'bold' }}
     >
-      <textPath href="#circlePath" startOffset="50%">
+      <textPath href="#circlePath" textLength="377" startOffset="50%" textAnchor="middle">
         GARANTIA DE 7 DIAS • GARANTIA DE 7 DIAS •
       </textPath>
     </text>
