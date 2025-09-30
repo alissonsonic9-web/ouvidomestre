@@ -41,10 +41,14 @@ export default function HeroSection() {
       </div>
 
       {/* Mobile View */}
-      <div
-        className="md:hidden relative w-full h-screen bg-no-repeat bg-cover bg-center"
-        style={{ backgroundImage: "url('https://i.ibb.co/VMywz6x/hero-mobile-new.png')" }}
-      >
+      <div className="md:hidden relative w-full h-screen">
+        <Image
+          src="https://i.ibb.co/Ncvt6sH/hero-mobile.png"
+          alt="Ouvido Mestre - Toque qualquer música sem depender de cifra"
+          fill
+          className="object-contain"
+          priority
+        />
       </div>
     </section>
   );
