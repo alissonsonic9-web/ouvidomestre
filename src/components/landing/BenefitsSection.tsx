@@ -67,7 +67,7 @@ export default function BenefitsSection() {
                   />
                 </div>
                 <h3 className="text-lg font-bold uppercase tracking-wider">{benefit.title}</h3>
-                <p className="mt-2 text-white/90">{benefit.description}</p>
+                <p className="mt-2 text-white/90 font-bold">{benefit.description}</p>
               </CardContent>
             </Card>
           ))}
