@@ -16,7 +16,7 @@ const features = [
 
 export default function PricingSection() {
   return (
-    <section id="pricing" className="w-full py-16 md:py-24 bg-primary/5">
+    <section id="pricing" className="w-full py-16 md:py-24 bg-[#1C4D82]">
       <div className="container mx-auto px-4">
         <div className="flex justify-center">
             <Card className="max-w-md w-full shadow-2xl overflow-hidden border-2 border-primary/20">
