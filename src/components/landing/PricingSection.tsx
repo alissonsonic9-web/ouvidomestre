@@ -18,6 +18,14 @@ export default function PricingSection() {
   return (
     <section id="pricing" className="w-full py-16 md:py-24 bg-[#1C4D82]">
       <div className="container mx-auto px-4">
+        <div className="text-center mb-12">
+          <h2 className="text-4xl md:text-5xl font-black text-white uppercase leading-tight">
+            OFERTA ESPECIAL PARA<br />GARANTIR HOJE!
+          </h2>
+          <p className="mt-4 text-lg text-yellow-300">
+            A promoção de lançamento pode encerrar a qualquer momento.
+          </p>
+        </div>
         <div className="flex justify-center">
             <Card className="max-w-md w-full shadow-2xl overflow-hidden border-2 border-primary/20">
                 <div className="p-8 bg-card text-card-foreground flex flex-col justify-center items-center text-center font-inter">
