@@ -90,12 +90,12 @@ export default {
           },
         },
         'draw-x-1': {
-          '0%': { transform: 'scaleX(0)' },
-          '100%': { transform: 'scaleX(1)' },
+          '0%': { transform: 'scaleX(0) rotate(-10deg)' },
+          '100%': { transform: 'scaleX(1) rotate(-10deg)' },
         },
         'draw-x-2': {
-          '0%': { transform: 'scaleX(0)' },
-          '100%': { transform: 'scaleX(1)' },
+          '0%': { transform: 'scaleX(0) rotate(10deg)' },
+          '100%': { transform: 'scaleX(1) rotate(10deg)' },
         },
       },
       animation: {

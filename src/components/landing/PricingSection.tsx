@@ -20,11 +20,11 @@ export default function PricingSection() {
       <div className="container mx-auto px-4">
         <div className="flex justify-center">
             <Card className="max-w-md w-full shadow-2xl overflow-hidden border-2 border-primary/20">
-                <div className="p-8 pb-4 bg-card text-card-foreground flex flex-col justify-center items-center text-center font-inter">
+                <div className="p-8 bg-card text-card-foreground flex flex-col justify-center items-center text-center font-inter">
                     <p className="font-semibold text-foreground/50 text-xl relative">
                       <span className="absolute inset-0 flex items-center justify-center overflow-hidden">
-                        <span className="block w-full h-0.5 bg-red-500 rotate-[-10deg] animate-draw-x-1"></span>
-                        <span className="block w-full h-0.5 bg-red-500 rotate-[10deg] animate-draw-x-2"></span>
+                        <span className="block w-full h-1.5 bg-red-500 rotate-[-10deg] animate-draw-x-1 origin-center"></span>
+                        <span className="block w-full h-1.5 bg-red-500 rotate-[10deg] animate-draw-x-2 origin-center"></span>
                       </span>
                       DE R$ 147,00
                     </p>
@@ -36,7 +36,7 @@ export default function PricingSection() {
                     </div>
                     <p className="font-bold text-lg text-foreground/80">PAGAMENTO ÚNICO</p>
                 </div>
-                <CardContent className="px-8 pb-8 pt-4">
+                <CardContent className="px-8 pb-8">
                     <ul className="space-y-4 font-inter">
                         {features.map((feature, index) => (
                             <li key={index} className="flex items-start">
