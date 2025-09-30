@@ -33,7 +33,7 @@ export default function PricingSection() {
                     <p className="font-bold text-lg text-foreground/80">PAGAMENTO ÚNICO</p>
                 </div>
                 <CardContent className="px-8 pb-8 pt-0">
-                    <ul className="space-y-4 font-inter">
+                    <ul className="space-y-3 font-inter">
                         {features.map((feature, index) => (
                             <li key={index} className="flex items-start">
                                 {feature.isBonus ? (
