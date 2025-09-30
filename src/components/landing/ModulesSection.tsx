@@ -58,12 +58,12 @@ export default function ModulesSection() {
             return (
               <Card key={module.id} className="flex flex-col overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
                 {image && (
-                  <div className="aspect-w-16 aspect-h-9">
+                  <div className="aspect-w-1 aspect-h-1">
                     <Image
                       src={image.imageUrl}
                       alt={image.description}
                       width={600}
-                      height={400}
+                      height={600}
                       className="object-cover w-full h-full"
                       data-ai-hint={image.imageHint}
                     />
