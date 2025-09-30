@@ -46,7 +46,7 @@ export default function HeroSection() {
           src="https://i.postimg.cc/3NHKHxNb/musica.jpg"
           alt="Ouvido Mestre - Toque qualquer música sem depender de cifra"
           fill
-          className="object-contain"
+          className="object-cover"
           priority
         />
       </div>
