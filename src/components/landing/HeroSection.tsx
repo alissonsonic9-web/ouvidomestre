@@ -41,13 +41,12 @@ export default function HeroSection() {
       </div>
 
       {/* Mobile View */}
-      <div className="md:hidden w-full">
+      <div className="md:hidden relative w-full h-screen bg-primary">
         <Image
           src="https://i.ibb.co/Ncvt6sH/hero-mobile.png"
           alt="Ouvido Mestre - Toque qualquer música sem depender de cifra"
-          width={1080}
-          height={1920}
-          className="w-full h-auto"
+          fill
+          className="object-contain"
           priority
         />
       </div>
