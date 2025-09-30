@@ -23,8 +23,8 @@ export default function PricingSection() {
                 <div className="p-8 bg-card text-card-foreground flex flex-col justify-center items-center text-center font-inter">
                     <p className="font-semibold text-foreground/50 text-xl relative">
                       <span className="absolute inset-0 flex items-center justify-center overflow-hidden">
-                        <span className="block w-full h-1 bg-red-500 animate-draw-x-1 origin-center"></span>
-                        <span className="block w-full h-1 bg-red-500 animate-draw-x-2 origin-center"></span>
+                        <span className="block w-full h-1 bg-red-500 animate-draw-x-1 origin-center rotate-[-45deg]"></span>
+                        <span className="block w-full h-1 bg-red-500 animate-draw-x-2 origin-center rotate-[45deg]"></span>
                       </span>
                       DE R$ 147,00
                     </p>
