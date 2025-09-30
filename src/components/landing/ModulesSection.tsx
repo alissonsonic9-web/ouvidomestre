@@ -177,7 +177,7 @@ export default function ModulesSection() {
           <a href="#pricing">
             <Button
               size="lg"
-              className="bg-[#28AF60] text-white hover:bg-[#28AF60] text-lg font-bold h-14 px-10 shadow-lg animate-jump-forward"
+              className="bg-[#28AF60] text-white hover:bg-[#28AF60] text-lg font-bold h-14 px-10 shadow-lg animate-jump-forward shadow-green-400/50"
             >
               QUERO APRENDER AGORA!
             </Button>
