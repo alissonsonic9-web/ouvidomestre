@@ -3,19 +3,19 @@ import { UserCheck, BookOpen, GraduationCap, Building2 } from 'lucide-react';
 
 const personas = [
     {
-        icon: <UserCheck className="w-8 h-8 text-primary" />,
+        icon: <UserCheck className="w-8 h-8 text-white" />,
         text: "Para quem já toca, mas quer se libertar das cifras."
     },
     {
-        icon: <BookOpen className="w-8 h-8 text-primary" />,
+        icon: <BookOpen className="w-8 h-8 text-white" />,
         text: "Para quem é iniciante e quer aprender do jeito certo desde o começo."
     },
     {
-        icon: <GraduationCap className="w-8 h-8 text-primary" />,
+        icon: <GraduationCap className="w-8 h-8 text-white" />,
         text: "Para professores que querem ensinar mais do que o básico."
     },
     {
-        icon: <Building2 className="w-8 h-8 text-primary" />,
+        icon: <Building2 className="w-8 h-8 text-white" />,
         text: "Para quem toca na igreja e precisa se virar na hora."
     }
 ]
@@ -29,7 +29,7 @@ export default function PersonasSection() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             {personas.map((persona, index) => (
-                <Card key={index} className="bg-card text-card-foreground shadow-lg">
+                <Card key={index} className="bg-[#FF7700] text-white shadow-lg">
                     <CardContent className="p-6 flex items-center gap-4">
                         <div className="flex-shrink-0">
                             {persona.icon}
