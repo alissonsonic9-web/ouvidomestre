@@ -27,10 +27,10 @@ export default function PricingSection() {
                     </p>
                     <p className="font-bold mt-4 text-xl text-foreground">POR APENAS</p>
                     <div className="flex items-baseline text-accent my-2">
-                      <span className="text-4xl font-black mr-1">R$</span>
-                      <span className="text-8xl font-black tracking-tighter">19</span>
+                      <span className="text-7xl font-black tracking-tighter">R$</span>
+                      <span className="text-7xl font-black tracking-tighter">19</span>
                       <div className="flex flex-col items-start">
-                          <span className="text-4xl font-black">,90</span>
+                          <span className="text-7xl font-black tracking-tighter">,90</span>
                       </div>
                     </div>
                     <p className="font-bold text-lg text-foreground/80">PAGAMENTO ÚNICO</p>
