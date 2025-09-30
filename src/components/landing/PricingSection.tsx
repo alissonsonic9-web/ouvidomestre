@@ -44,7 +44,7 @@ export default function PricingSection() {
                                 ) : (
                                     <CheckCircle2 className="w-5 h-5 text-green-500 mr-3 flex-shrink-0 mt-0.5" />
                                 )}
-                                <span className="text-base font-medium text-foreground/80">{feature.text}</span>
+                                <span className={`text-base text-foreground/80 ${!feature.isBonus ? 'font-bold' : 'font-medium'}`}>{feature.text}</span>
                             </li>
                         ))}
                     </ul>
