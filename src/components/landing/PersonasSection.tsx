@@ -25,7 +25,9 @@ export default function PersonasSection() {
     <section id="personas" className="w-full py-16 md:py-24 bg-[#1C4D82]">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-primary-foreground font-headline">Esse material é para você:</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-primary-foreground font-headline">
+            Esse <span className="text-[#FF7700] uppercase">material</span> é para você:
+          </h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             {personas.map((persona, index) => (
