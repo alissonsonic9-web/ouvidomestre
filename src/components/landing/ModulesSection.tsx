@@ -7,6 +7,7 @@ import {
   CarouselContent,
   CarouselItem,
 } from "@/components/ui/carousel";
+import { Button } from '@/components/ui/button';
 
 
 const modulesData = [
@@ -172,6 +173,16 @@ export default function ModulesSection() {
           </Carousel>
         </div>
 
+        <div className="mt-12 text-center">
+          <a href="#pricing">
+            <Button
+              size="lg"
+              className="bg-green-600 text-white hover:bg-green-700 text-lg font-bold h-14 px-10 shadow-lg animate-pulse"
+            >
+              QUERO APRENDER AGORA!
+            </Button>
+          </a>
+        </div>
       </div>
     </section>
   );
