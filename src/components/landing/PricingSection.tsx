@@ -20,17 +20,17 @@ export default function PricingSection() {
       <div className="container mx-auto px-4">
         <div className="flex justify-center">
             <Card className="max-w-md w-full shadow-2xl overflow-hidden border-2 border-primary/20">
-                <div className="p-8 bg-card text-card-foreground flex flex-col justify-center items-center text-center">
+                <div className="p-8 bg-card text-card-foreground flex flex-col justify-center items-center text-center font-inter">
                     <p className="font-semibold line-through text-foreground/50 text-xl relative">
                       <span className="absolute inset-0 bg-red-500 h-0.5 m-auto" style={{transform: 'rotate(-10deg)'}}></span>
                       DE R$ 147,00
                     </p>
-                    <p className="font-extrabold mt-4 text-xl text-foreground">POR APENAS</p>
+                    <p className="font-bold mt-4 text-xl text-foreground">POR APENAS</p>
                     <div className="flex items-baseline text-accent my-2">
-                      <span className="text-4xl font-bold mr-1">R$</span>
-                      <span className="text-8xl font-bold tracking-tighter">19</span>
+                      <span className="text-4xl font-black mr-1">R$</span>
+                      <span className="text-8xl font-black tracking-tighter">19</span>
                       <div className="flex flex-col items-start">
-                          <span className="text-4xl font-bold">,90</span>
+                          <span className="text-4xl font-black">,90</span>
                       </div>
                     </div>
                     <p className="font-bold text-lg text-foreground/80">PAGAMENTO ÚNICO</p>
