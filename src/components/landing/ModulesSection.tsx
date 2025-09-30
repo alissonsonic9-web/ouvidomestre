@@ -136,7 +136,7 @@ export default function ModulesSection() {
                 const image = PlaceHolderImages.find((img) => img.id === module.id);
                 return (
                   <CarouselItem key={module.id} className="basis-4/5">
-                    <div className="p-1">
+                    <div className="p-1 h-full">
                       <Card className="flex flex-col overflow-hidden shadow-lg h-full">
                         {image && (
                           <div className="relative w-full aspect-square">
@@ -151,7 +151,7 @@ export default function ModulesSection() {
                           </div>
                         )}
                         <CardHeader>
-                          <CardTitle className="text-lg font-bold text-primary">{module.title}</CardTitle>
+                          <CardTitle className="text-lg font-bold text-primary min-h-[3.5rem]">{module.title}</CardTitle>
                         </CardHeader>
                         <CardContent className="flex-grow">
                           <ul className="space-y-2">
