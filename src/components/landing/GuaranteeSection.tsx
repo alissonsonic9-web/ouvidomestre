@@ -22,7 +22,7 @@ const GuaranteeSeal = () => (
       style={{ fontSize: '20px', fontWeight: 'bold', letterSpacing: '2px' }}
     >
       <textPath href="#circlePath" startOffset="50%">
-        GARANTIA DE 7 DIAS •
+        GARANTIA DE 7 DIAS • GARANTIA DE 7 DIAS •
       </textPath>
     </text>
     <text
@@ -40,7 +40,7 @@ const GuaranteeSeal = () => (
 
 export default function GuaranteeSection() {
   return (
-    <section id="guarantee" className="w-full py-16 md:py-24 bg-white">
+    <section id="guarantee" className="w-full py-16 md:py-24 bg-[#F8F8F8]">
       <div className="container mx-auto px-4">
         <div className="max-w-md mx-auto text-center">
           <GuaranteeSeal />
