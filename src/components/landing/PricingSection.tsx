@@ -20,9 +20,12 @@ export default function PricingSection() {
       <div className="container mx-auto px-4">
         <div className="flex justify-center">
             <Card className="max-w-md w-full shadow-2xl overflow-hidden border-2 border-primary/20">
-                <div className="p-8 pb-4 bg-card text-card-foreground flex flex-col justify-center items-center text-center font-inter">
-                    <p className="font-semibold line-through text-foreground/50 text-xl relative">
-                      <span className="absolute inset-0 bg-red-500 h-0.5 m-auto" style={{transform: 'rotate(-10deg)'}}></span>
+                <div className="p-8 pb-0 bg-card text-card-foreground flex flex-col justify-center items-center text-center font-inter">
+                    <p className="font-semibold text-foreground/50 text-xl relative">
+                      <span className="absolute inset-0 flex items-center justify-center">
+                        <span className="block w-full h-0.5 bg-red-500 origin-left animate-draw-x-1"></span>
+                        <span className="block w-full h-0.5 bg-red-500 origin-right animate-draw-x-2"></span>
+                      </span>
                       DE R$ 147,00
                     </p>
                     <p className="font-bold mt-4 text-xl text-foreground">POR APENAS</p>

@@ -89,10 +89,20 @@ export default {
             height: '0',
           },
         },
+        'draw-x-1': {
+          '0%': { transform: 'scaleX(0) rotate(10deg)' },
+          '100%': { transform: 'scaleX(1) rotate(10deg)' },
+        },
+        'draw-x-2': {
+          '0%': { transform: 'scaleX(0) rotate(-10deg)' },
+          '100%': { transform: 'scaleX(1) rotate(-10deg)' },
+        },
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
+        'draw-x-1': 'draw-x-1 0.5s ease-out forwards',
+        'draw-x-2': 'draw-x-2 0.5s ease-out 0.2s forwards',
       },
     },
   },
