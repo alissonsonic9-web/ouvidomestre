@@ -29,14 +29,12 @@ export default function PricingSection() {
                     <div className="flex items-baseline text-accent my-2">
                       <span className="text-7xl font-black tracking-tighter">R$</span>
                       <span className="text-7xl font-black tracking-tighter">19</span>
-                      <div className="flex flex-col items-start">
-                          <span className="text-7xl font-black tracking-tighter">,90</span>
-                      </div>
+                      <span className="text-7xl font-black tracking-tighter">,90</span>
                     </div>
                     <p className="font-bold text-lg text-foreground/80">PAGAMENTO ÚNICO</p>
                 </div>
                 <CardContent className="p-8">
-                    <ul className="space-y-4">
+                    <ul className="space-y-4 font-inter">
                         {features.map((feature, index) => (
                             <li key={index} className="flex items-start">
                                 {feature.isBonus ? (
