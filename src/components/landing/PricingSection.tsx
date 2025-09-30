@@ -52,9 +52,11 @@ export default function PricingSection() {
                 </CardContent>
 
                 <CardFooter className="flex-col p-6 pt-0 gap-4">
-                    <Button size="lg" className="w-full bg-green-600 text-white hover:bg-green-700 text-lg font-bold h-14 shadow-lg animate-pulse">
-                        GARANTIR O MEU AGORA!
-                    </Button>
+                    <a href="https://www.ggcheckout.com/checkout/v2/dd3YcDfmJ9793x2ccCRZ" target="_blank" rel="noopener noreferrer" className="w-full">
+                        <Button size="lg" className="w-full bg-green-600 text-white hover:bg-green-700 text-lg font-bold h-14 shadow-lg animate-pulse">
+                            GARANTIR O MEU AGORA!
+                        </Button>
+                    </a>
                     <div className="flex items-center text-sm text-foreground/60">
                       <ShieldCheck className="w-4 h-4 mr-2 text-green-600"/>
                       <span>Compra 100% segura</span>
