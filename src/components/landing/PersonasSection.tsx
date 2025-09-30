@@ -29,7 +29,7 @@ export default function PersonasSection() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             {personas.map((persona, index) => (
-                <Card key={index} className="bg-[#FF7700] text-white shadow-lg">
+                <Card key={index} className="bg-[#FF7700] text-white shadow-lg border-transparent">
                     <CardContent className="p-6 flex items-center gap-4">
                         <div className="flex-shrink-0">
                             {persona.icon}
