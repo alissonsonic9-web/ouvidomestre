@@ -93,7 +93,7 @@ export default function ModulesSection() {
           {modulesData.map((module) => {
             const image = PlaceHolderImages.find((img) => img.id === module.id);
             return (
-              <Card key={module.id} className="flex flex-col overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <Card key={module.id} className="flex flex-col overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 bg-card">
                 {image && (
                   <div className="relative w-full aspect-square">
                     <Image
@@ -138,7 +138,7 @@ export default function ModulesSection() {
                 return (
                   <CarouselItem key={module.id} className="basis-4/5">
                     <div className="p-1 h-full">
-                      <Card className="flex flex-col overflow-hidden shadow-lg h-full">
+                      <Card className="flex flex-col overflow-hidden shadow-lg h-full bg-card">
                         {image && (
                           <div className="relative w-full aspect-square">
                             <Image
@@ -177,7 +177,7 @@ export default function ModulesSection() {
           <a href="#pricing">
             <Button
               size="lg"
-              className="bg-green-600 text-white hover:bg-green-600 text-lg font-bold h-14 px-10 shadow-lg animate-pulse"
+              className="bg-green-600 text-white hover:bg-green-600 text-lg font-bold h-14 px-10 shadow-lg"
             >
               QUERO APRENDER AGORA!
             </Button>
