@@ -21,7 +21,7 @@ export default function PricingSection() {
         <div className="flex justify-center">
             <Card className="max-w-md w-full shadow-2xl overflow-hidden border-2 border-primary/20">
                 <div className="p-8 bg-card text-card-foreground flex flex-col justify-center items-center text-center font-inter">
-                    <p className="font-semibold text-foreground/50 text-xl line-through">
+                    <p className="font-semibold text-foreground/50 text-2xl line-through">
                       DE R$ 147,00
                     </p>
                     <p className="font-bold mt-4 text-xl text-foreground">POR APENAS</p>
