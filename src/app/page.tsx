@@ -2,7 +2,6 @@ import HeroSection from '@/components/landing/HeroSection';
 import ModulesSection from '@/components/landing/ModulesSection';
 import BenefitsSection from '@/components/landing/BenefitsSection';
 import PersonasSection from '@/components/landing/PersonasSection';
-import PlayGuideSection from '@/components/landing/PlayGuideSection';
 import BonusesSection from '@/components/landing/BonusesSection';
 import PricingSection from '@/components/landing/PricingSection';
 import GuaranteeSection from '@/components/landing/GuaranteeSection';
@@ -16,7 +15,6 @@ export default function Home() {
         <ModulesSection />
         <BenefitsSection />
         <PersonasSection />
-        <PlayGuideSection />
         <BonusesSection />
         <PricingSection />
         <GuaranteeSection />
