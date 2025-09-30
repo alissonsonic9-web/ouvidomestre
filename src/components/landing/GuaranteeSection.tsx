@@ -22,8 +22,8 @@ const GuaranteeSeal = () => (
       dy="-8"
       style={{ fontSize: '20px', fontWeight: 'bold' }}
     >
-      <textPath href="#circlePath" textLength="377" startOffset="50%" textAnchor="middle">
-        GARANTIA DE 7 DIAS • GARANTIA DE 7 DIAS •
+      <textPath href="#circlePath" textLength="370" startOffset="50%" textAnchor="middle">
+        GARANTIA DE 7 DIAS • GARANTIA DE 7 DIAS
       </textPath>
     </text>
     <text
