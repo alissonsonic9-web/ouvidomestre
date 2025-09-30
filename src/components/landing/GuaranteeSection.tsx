@@ -2,7 +2,7 @@ import { ShieldCheck } from 'lucide-react';
 
 export default function GuaranteeSection() {
   return (
-    <section id="guarantee" className="w-full py-16 md:py-24">
+    <section id="guarantee" className="w-full py-16 md:py-24 bg-[#F8F8F8]">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto flex flex-col md:flex-row items-center gap-8 rounded-lg border-2 border-dashed border-primary/50 p-8 text-center md:text-left">
           <div className="relative">
