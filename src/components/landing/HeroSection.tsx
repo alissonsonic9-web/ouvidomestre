@@ -41,14 +41,22 @@ export default function HeroSection() {
       </div>
 
       {/* Mobile View */}
-      <div className="md:hidden relative w-full h-screen bg-primary">
-        <Image
-          src="https://i.ibb.co/Ncvt6sH/hero-mobile.png"
-          alt="Ouvido Mestre - Toque qualquer música sem depender de cifra"
-          fill
-          className="object-contain"
-          priority
-        />
+      <div
+        className="md:hidden relative w-full h-screen bg-no-repeat bg-cover bg-center text-white flex flex-col justify-end pb-24"
+        style={{ backgroundImage: "url('https://i.ibb.co/VMywz6x/hero-mobile-new.png')" }}
+      >
+        <div className="container mx-auto px-8 text-center">
+          <h1 className="text-4xl font-bold uppercase">
+            Domine <br />
+            <span className="text-accent">Qualquer</span> <span className="text-accent">Música</span>{' '}
+            <span className="text-accent">Sem</span> <br />
+            Precisar de <br />
+            Cifra.
+          </h1>
+          <p className="mt-4 text-lg">
+            Descubra o método que músicos experientes queriam ter aprendido no começo
+          </p>
+        </div>
       </div>
     </section>
   );
