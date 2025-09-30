@@ -82,10 +82,10 @@ const modulesData = [
 
 export default function ModulesSection() {
   return (
-    <section id="modules" className="w-full py-16 md:py-24">
+    <section id="modules" className="w-full py-16 md:py-24 bg-[#1C4D82]">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-primary font-headline">O que você vai ter acesso?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-primary-foreground font-headline">O que você vai ter acesso?</h2>
         </div>
         {/* Desktop View */}
         <div className="hidden sm:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -106,7 +106,7 @@ export default function ModulesSection() {
                   </div>
                 )}
                 <CardHeader>
-                  <CardTitle className="text-lg font-bold text-primary">{module.title}</CardTitle>
+                  <CardTitle className="text-lg font-bold text-primary min-h-[3.5rem]">{module.title}</CardTitle>
                 </CardHeader>
                 <CardContent className="flex-grow">
                   <ul className="space-y-2">
