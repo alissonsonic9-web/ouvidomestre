@@ -2,6 +2,14 @@ import Image from 'next/image';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { CheckCircle2 } from 'lucide-react';
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
+
 
 const modulesData = [
   {
@@ -81,7 +89,8 @@ export default function ModulesSection() {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-primary font-headline">O que você vai ter acesso?</h2>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        {/* Desktop View */}
+        <div className="hidden sm:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {modulesData.map((module) => {
             const image = PlaceHolderImages.find((img) => img.id === module.id);
             return (
@@ -115,6 +124,58 @@ export default function ModulesSection() {
             );
           })}
         </div>
+
+        {/* Mobile View */}
+        <div className="sm:hidden">
+          <Carousel
+            opts={{
+              align: "start",
+            }}
+            className="w-full"
+          >
+            <CarouselContent>
+              {modulesData.map((module) => {
+                const image = PlaceHolderImages.find((img) => img.id === module.id);
+                return (
+                  <CarouselItem key={module.id} className="basis-4/5">
+                    <div className="p-1">
+                      <Card className="flex flex-col overflow-hidden shadow-lg h-full">
+                        {image && (
+                          <div className="relative w-full aspect-square">
+                            <Image
+                              src={image.imageUrl}
+                              alt={image.description}
+                              fill
+                              className="object-cover"
+                              data-ai-hint={image.imageHint}
+                              sizes="80vw"
+                            />
+                          </div>
+                        )}
+                        <CardHeader>
+                          <CardTitle className="text-lg font-bold text-primary">{module.title}</CardTitle>
+                        </CardHeader>
+                        <CardContent className="flex-grow">
+                          <ul className="space-y-2">
+                            {module.description.map((point, index) => (
+                              <li key={index} className="flex items-start">
+                                <CheckCircle2 className="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" />
+                                <span className="text-sm text-foreground/80 font-inter font-bold">{point}</span>
+                              </li>
+                            ))}
+                          </ul>
+                        </CardContent>
+                      </Card>
+                    </div>
+                  </CarouselItem>
+                );
+              })}
+            </CarouselContent>
+            <CarouselPrevious className="ml-12" />
+            <CarouselNext className="mr-12" />
+          </Carousel>
+        </div>
+
       </div>
     </section>
   );
