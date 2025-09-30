@@ -107,7 +107,7 @@ export default {
         'accordion-up': 'accordion-up 0.2s ease-out',
         'draw-x-1': 'draw-x-1 0.3s ease-out forwards',
         'draw-x-2': 'draw-x-2 0.3s ease-out 0.2s forwards',
-        'jump-forward': 'jump-forward 1.5s ease-in-out infinite',
+        'jump-forward': 'jump-forward 2.5s ease-in-out infinite',
       },
     },
   },
