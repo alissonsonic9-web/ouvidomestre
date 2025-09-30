@@ -62,9 +62,9 @@
     },
     {
       "id": "bonus-1",
-      "description": "A stopwatch indicating a short amount of time, suggesting speed.",
-      "imageUrl": "https://images.unsplash.com/photo-1571974684509-26e74a5d6a23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZmFzdCUyMG11c2ljfGVufDB8fHx8MTc1OTE5MTU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "fast music"
+      "description": "Cover of the 'Guia Rápido' bonus ebook.",
+      "imageUrl": "https://i.postimg.cc/XYFn0Kx7/guia.webp",
+      "imageHint": "ebook cover"
     },
     {
       "id": "bonus-2",
