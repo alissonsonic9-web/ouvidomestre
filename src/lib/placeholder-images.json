@@ -1,3 +1,70 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-image",
+      "description": "A person playing guitar with passion.",
+      "imageUrl": "https://images.unsplash.com/photo-1583784161563-a0183c5412ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxndWl0YXIlMjBwbGF5ZXJ8ZW58MHx8fHwxNzU5MTkxNTQyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "guitar player"
+    },
+    {
+      "id": "module-1",
+      "description": "A person listening intently to music with headphones.",
+      "imageUrl": "https://images.unsplash.com/photo-1593370905847-92c565c08c0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtdXNpYyUyMGVhcnxlbnwwfHx8fDE3NTkxOTE1NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "music ear"
+    },
+    {
+      "id": "module-2",
+      "description": "Close-up of hands playing a guitar, showing finger placement.",
+      "imageUrl": "https://images.unsplash.com/photo-1633376593922-4128794bf832?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxndWl0YXIlMjBwcmFjdGljZXxlbnwwfHx8fDE3NTkxOTE1NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "guitar practice"
+    },
+    {
+      "id": "module-3",
+      "description": "Abstract visualization of sound waves.",
+      "imageUrl": "https://images.unsplash.com/photo-1617994452722-4145e196248b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhdWRpbyUyMHdhdmVzfGVufDB8fHx8MTc1OTE5MTU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "audio waves"
+    },
+    {
+      "id": "module-4",
+      "description": "A collection of vinyl records on a shelf.",
+      "imageUrl": "https://images.unsplash.com/photo-1588532218970-c2cab983746a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx2aW55bCUyMHJlY29yZHN8ZW58MHx8fHwxNzU5MTkxNTQyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "vinyl records"
+    },
+    {
+      "id": "module-5",
+      "description": "Close-up of piano keys being played.",
+      "imageUrl": "https://images.unsplash.com/photo-1595441464981-f14316f1b623?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwaWFubyUyMGtleXN8ZW58MHx8fHwxNzU5MTY2OTA0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "piano keys"
+    },
+    {
+      "id": "module-6",
+      "description": "A notebook with musical notes and theory written on it.",
+      "imageUrl": "https://images.unsplash.com/photo-1485688809171-248861015a63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtdXNpYyUyMHRoZW9yeXxlbnwwfHx8fDE3NTkxOTE1NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "music theory"
+    },
+    {
+      "id": "module-7",
+      "description": "A musician creatively composing music in a home studio.",
+      "imageUrl": "https://images.unsplash.com/photo-1696866021969-d6b9d1351a5c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjcmVhdGl2ZSUyMG11c2ljaWFufGVufDB8fHx8MTc1OTE5MTU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "creative musician"
+    },
+    {
+      "id": "module-8",
+      "description": "A band performing live on a small stage.",
+      "imageUrl": "https://images.unsplash.com/photo-1724333191517-41ef791fc3f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxsaXZlJTIwcGVyZm9ybWFuY2V8ZW58MHx8fHwxNzU5MTI1OTU4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "live performance"
+    },
+    {
+      "id": "bonus-1",
+      "description": "A stopwatch indicating a short amount of time, suggesting speed.",
+      "imageUrl": "https://images.unsplash.com/photo-1571974684509-26e74a5d6a23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZmFzdCUyMG11c2ljfGVufDB8fHx8MTc1OTE5MTU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fast music"
+    },
+    {
+      "id": "bonus-2",
+      "description": "An open book showing various guitar chords.",
+      "imageUrl": "https://images.unsplash.com/photo-1660669227697-bdb476c130bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjaG9yZCUyMGJvb2t8ZW58MHx8fHwxNzU5MTkxNTQyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chord book"
+    }
+  ]
 }
