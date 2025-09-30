@@ -9,7 +9,7 @@
     {
       "id": "ebook-cover",
       "description": "Cover of the 'Ouvido Mestre' ebook.",
-      "imageUrl": "https://images.unsplash.com/photo-1755545730104-3cb4545282b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxlYm9vayUyMGNvdmVyfGVufDB8fHx8MTc1OTE2NTY2N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1755545730104-3cb4545282b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxlYm9vayUyMGNvdmVyfGVufDB8fHx8fDE3NTkxNjU2NjN3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "ebook cover"
     },
     {
@@ -45,7 +45,7 @@
     {
       "id": "module-6",
       "description": "A notebook with musical notes and theory written on it.",
-      "imageUrl": "https://images.unsplash.com/photo-1485688809171-248861015a63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtdXNpYyUyMHRoZW9yeXxlbnwwfHx8fDE3NTkxOTE1NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://i.postimg.cc/Cx2MNf99/teoria.webp",
       "imageHint": "music theory"
     },
     {
