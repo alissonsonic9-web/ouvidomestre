@@ -19,12 +19,21 @@ export default function PricingSection() {
     <section id="pricing" className="w-full py-16 md:py-24 bg-primary/5">
       <div className="container mx-auto px-4">
         <div className="flex justify-center">
-            <Card className="max-w-md w-full shadow-2xl overflow-hidden">
-                <div className="p-8 bg-primary text-primary-foreground flex flex-col justify-center items-center text-center">
-                    <p className="font-semibold line-through text-primary-foreground/70 text-lg">DE R$ 147,00</p>
-                    <p className="font-semibold mt-2 text-xl">POR APENAS</p>
-                    <p className="text-7xl font-bold text-accent my-2">R$19,90</p>
-                    <p className="font-bold text-lg">PAGAMENTO ÚNICO</p>
+            <Card className="max-w-md w-full shadow-2xl overflow-hidden border-2 border-primary/20">
+                <div className="p-8 bg-card text-card-foreground flex flex-col justify-center items-center text-center">
+                    <p className="font-semibold line-through text-foreground/50 text-xl relative">
+                      <span className="absolute inset-0 bg-red-500 h-0.5 m-auto" style={{transform: 'rotate(-10deg)'}}></span>
+                      DE R$ 147,00
+                    </p>
+                    <p className="font-extrabold mt-4 text-xl text-foreground">POR APENAS</p>
+                    <div className="flex items-baseline text-accent my-2">
+                      <span className="text-4xl font-bold mr-1">R$</span>
+                      <span className="text-8xl font-bold tracking-tighter">19</span>
+                      <div className="flex flex-col items-start">
+                          <span className="text-4xl font-bold">,90</span>
+                      </div>
+                    </div>
+                    <p className="font-bold text-lg text-foreground/80">PAGAMENTO ÚNICO</p>
                 </div>
                 <CardContent className="p-8">
                     <ul className="space-y-4">
@@ -35,20 +44,20 @@ export default function PricingSection() {
                                 ) : (
                                     <CheckCircle2 className="w-5 h-5 text-green-500 mr-3 flex-shrink-0 mt-0.5" />
                                 )}
-                                <span className="text-base font-medium">{feature.text}</span>
+                                <span className="text-base font-medium text-foreground/80">{feature.text}</span>
                             </li>
                         ))}
                     </ul>
                 </CardContent>
 
                 <CardFooter className="flex-col p-6 pt-0 gap-4">
-                    <div className="flex items-center text-sm text-red-500/80">
-                      <ShieldCheck className="w-4 h-4 mr-2"/>
-                      <span>Compra 100% segura</span>
-                    </div>
-                    <Button size="lg" className="w-full bg-green-600 text-white hover:bg-green-700 text-lg font-bold h-14 shadow-lg">
+                    <Button size="lg" className="w-full bg-green-600 text-white hover:bg-green-700 text-lg font-bold h-14 shadow-lg animate-pulse">
                         GARANTIR O MEU AGORA!
                     </Button>
+                    <div className="flex items-center text-sm text-foreground/60">
+                      <ShieldCheck className="w-4 h-4 mr-2 text-green-600"/>
+                      <span>Compra 100% segura</span>
+                    </div>
                 </CardFooter>
             </Card>
         </div>
