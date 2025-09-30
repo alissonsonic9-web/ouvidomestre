@@ -73,7 +73,7 @@ export default function ModulesSection() {
                   <CardTitle className="text-lg font-bold text-primary">{module.title}</CardTitle>
                 </CardHeader>
                 <CardContent className="flex-grow">
-                  <p className="text-sm text-foreground/80">{module.description}</p>
+                  <p className="text-sm text-foreground/80 font-inter font-bold">{module.description}</p>
                 </CardContent>
               </Card>
             );
