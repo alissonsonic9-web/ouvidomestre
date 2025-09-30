@@ -1,29 +1,64 @@
 import { ShieldCheck } from 'lucide-react';
 
+const GuaranteeSeal = () => (
+  <svg
+    width="160"
+    height="160"
+    viewBox="0 0 160 160"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className="mx-auto"
+  >
+    <path
+      id="circlePath"
+      d="M 80, 20 a 60,60 0 1,1 0,120 a 60,60 0 1,1 0,-120"
+      fill="transparent"
+    />
+    <circle cx="80" cy="80" r="48" fill="#FF7700" />
+    <text
+      fill="#1C4D82"
+      dy="-10"
+      textAnchor="middle"
+      style={{ fontSize: '20px', fontWeight: 'bold', letterSpacing: '2px' }}
+    >
+      <textPath href="#circlePath" startOffset="50%">
+        GARANTIA DE 7 DIAS •
+      </textPath>
+    </text>
+    <text
+      x="80"
+      y="92"
+      fill="white"
+      textAnchor="middle"
+      style={{ fontSize: '48px', fontWeight: 'bold' }}
+    >
+      07
+    </text>
+  </svg>
+);
+
+
 export default function GuaranteeSection() {
   return (
-    <section id="guarantee" className="w-full py-16 md:py-24 bg-[#F8F8F8]">
+    <section id="guarantee" className="w-full py-16 md:py-24 bg-white">
       <div className="container mx-auto px-4">
-        <div className="max-w-3xl mx-auto flex flex-col md:flex-row items-center gap-8 rounded-lg border-2 border-dashed border-primary/50 p-8 text-center md:text-left">
-          <div className="relative">
-            <ShieldCheck className="w-24 h-24 text-primary opacity-20" />
-            <span className="absolute inset-0 flex items-center justify-center text-4xl font-bold text-primary">07</span>
-          </div>
-          <div>
-            <h2 className="text-2xl md:text-3xl font-bold text-primary font-headline">Garantia Incondicional de 7 Dias</h2>
-            <p className="mt-4 text-lg text-foreground/80">
+        <div className="max-w-md mx-auto text-center">
+          <GuaranteeSeal />
+          <div className="mt-8">
+            <h2 className="text-3xl md:text-4xl font-bold text-primary font-headline">
+              Garantia Incondicional de 7 Dias
+            </h2>
+            <p className="mt-4 text-lg text-foreground/80 max-w-sm mx-auto">
               Se dentro de 7 dias você não ficar satisfeito, devolvemos 100% do valor.
             </p>
-            <p className="mt-2 font-semibold text-foreground">
+            <p className="mt-4 font-semibold text-[#28AF60] text-xl">
               Sem perguntas. Sem burocracia.
             </p>
-            <p className="mt-4 text-sm text-muted-foreground">
-              Sua compra é 100% segura.
-            </p>
+            <div className="mt-6 flex items-center justify-center text-muted-foreground">
+              <ShieldCheck className="w-5 h-5 mr-2 text-green-600"/>
+              <span className="font-semibold">Sua compra é 100% segura.</span>
+            </div>
           </div>
-        </div>
-        <div className="text-center mt-8 font-semibold text-primary animate-pulse">
-            Garantia de 7 dias • Garantia de 7 dias • Garantia de 7 dias
         </div>
       </div>
     </section>
