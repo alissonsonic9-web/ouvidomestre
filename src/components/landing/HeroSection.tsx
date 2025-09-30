@@ -4,12 +4,11 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 export default function HeroSection() {
   const heroImage = PlaceHolderImages.find((img) => img.id === 'hero-image');
-  const ebookImage = PlaceHolderImages.find((img) => img.id === 'ebook-cover');
 
   return (
-    <section id="hero" className="relative w-full bg-primary/40">
+    <section id="hero" className="relative w-full">
       {/* Desktop View */}
-      <div className="hidden md:block relative w-full h-[80vh]">
+      <div className="hidden md:block relative w-full h-[80vh] bg-primary/40">
         {heroImage && (
           <Image
             src={heroImage.imageUrl}
@@ -42,14 +41,10 @@ export default function HeroSection() {
       </div>
 
       {/* Mobile View */}
-      <div className="md:hidden relative w-full h-screen">
-          <Image
-            src="https://i.ibb.co/Ncvt6sH/hero-mobile.png"
-            alt="Ouvido Mestre - Toque qualquer música sem depender de cifra"
-            fill
-            className="object-contain"
-            priority
-          />
+      <div
+        className="md:hidden relative w-full h-screen bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: "url('https://i.ibb.co/Ncvt6sH/hero-mobile.png')" }}
+      >
       </div>
     </section>
   );
