@@ -47,7 +47,7 @@ export default function BonusesSection() {
                   <CardTitle className="text-xl font-bold text-primary">{bonus.title}</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-base text-foreground/80">{bonus.description}</p>
+                  <p className="text-base text-foreground/80 font-bold">{bonus.description}</p>
                 </CardContent>
               </Card>
             );
