@@ -13,20 +13,16 @@ import { Button } from '@/components/ui/button';
 const modulesData = [
   {
     id: 'module-1',
-    title: 'Módulo 1 – Método Prático para Desenvolver o Ouvido Musical',
+    title: 'UM MÉTODO PRÁTICO PARA DESENVOLVER O OUVIDO MUSICAL',
     description: [
-      'Treine seu ouvido de forma intuitiva.',
-      'Reconheça acordes, riffs, frases e solos de escuta.',
-      'Livre-se da dependência de cifras e partituras.',
+      'Aprenda a identificar acordes, riffs, solos, frases e arranjos em qualquer estilo musical — direto no ouvido, sem depender de cifras.',
     ],
   },
   {
     id: 'module-2',
-    title: 'Módulo 2 – Exercícios Progressivos que Funcionam em Qualquer Instrumento',
+    title: 'EXERCÍCIOS PROGRESSIVOS QUE FUNCIONAM EM QUALQUER INSTRUMENTO',
     description: [
-      'Treinos graduais para violão, sax, teclado, etc.',
-      'Exercícios aplicáveis em qualquer música.',
-      'Acelere seu domínio musical de forma prática.',
+      'Do violão ao sax, do teclado à guitarra — os treinos foram pensados para funcionar com qualquer músico, em qualquer contexto.',
     ],
   },
   {
@@ -114,7 +110,7 @@ export default function ModulesSection() {
                     {module.description.map((point, index) => (
                       <li key={index} className="flex items-start">
                         <CheckCircle2 className="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" />
-                        <span className="text-lg text-foreground/80 font-inter font-bold">{point}</span>
+                        <span className="text-base text-foreground/80 font-inter font-bold">{point}</span>
                       </li>
                     ))}
                   </ul>
@@ -159,7 +155,7 @@ export default function ModulesSection() {
                             {module.description.map((point, index) => (
                               <li key={index} className="flex items-start">
                                 <CheckCircle2 className="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" />
-                                <span className="text-lg text-foreground/80 font-inter font-bold">{point}</span>
+                                <span className="text-base text-foreground/80 font-inter font-bold">{point}</span>
                               </li>
                             ))}
                           </ul>
