@@ -114,7 +114,7 @@ export default function ModulesSection() {
                     {module.description.map((point, index) => (
                       <li key={index} className="flex items-start">
                         <CheckCircle2 className="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" />
-                        <span className="text-base text-foreground/80 font-inter font-bold">{point}</span>
+                        <span className="text-lg text-foreground/80 font-inter font-bold">{point}</span>
                       </li>
                     ))}
                   </ul>
@@ -159,7 +159,7 @@ export default function ModulesSection() {
                             {module.description.map((point, index) => (
                               <li key={index} className="flex items-start">
                                 <CheckCircle2 className="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" />
-                                <span className="text-base text-foreground/80 font-inter font-bold">{point}</span>
+                                <span className="text-lg text-foreground/80 font-inter font-bold">{point}</span>
                               </li>
                             ))}
                           </ul>
