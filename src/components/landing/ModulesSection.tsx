@@ -45,19 +45,18 @@ const modulesData = [
   },
   {
     id: 'module-5',
-    title: 'Módulo 5 – Rotinas de Treino Técnico no Seu Instrumento',
+    title: 'ROTINAS DE TREINO TÉCNICO APLICÁVEIS AO SEU INSTRUMENTO',
     description: [
-      'Domine técnicas como vibratos, bends e ligados.',
-      'Rotinas organizadas para uma evolução sólida.',
-      'Aprimore a palhetada alternada e outras técnicas.',
+      'Técnicas como bends, vibratos, ligados, palhetadas e tapping explicadas de forma didática.',
+      'Foco em limpeza, precisão e fluidez.',
     ],
   },
   {
     id: 'module-6',
-    title: 'Módulo 6 – Conceitos Teóricos Descomplicados e Aplicáveis',
+    title: 'CONCEITOS TEÓRICOS DESCOMPLICADOS E APLICÁVEIS',
     description: [
-      'Aprenda apenas a teoria musical que você realmente precisa.',
-      'Conhecimento aplicado para entender o que ouve e toca.',
+      'Teoria musical explicada de forma simples e prática — sem blá blá blá.',
+      'Só o que você precisa pra entender o que ouve e aplicar no instrumento.',
     ],
   },
   {
@@ -155,7 +154,8 @@ export default function ModulesSection() {
                           <ul className="space-y-2">
                             {module.description.map((point, index) => (
                               <li key={index} className="flex items-start">
-                                <CheckCircle2 className="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" />
+                                <CheckCircle2 className="w-5 h-5 text-green-500 mr-2 flex-shrink-0 mt-0
+.5" />
                                 <span className="text-base text-foreground/80 font-inter font-bold">{point}</span>
                               </li>
                             ))}
