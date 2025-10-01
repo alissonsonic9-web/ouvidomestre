@@ -15,14 +15,16 @@ const modulesData = [
     id: 'module-1',
     title: 'UM MÉTODO PRÁTICO PARA DESENVOLVER O OUVIDO MUSICAL',
     description: [
-      'Aprenda a identificar acordes, riffs, solos, frases e arranjos em qualquer estilo musical — direto no ouvido, sem depender de cifras.',
+      'Aprenda a identificar acordes, riffs, solos, frases e arranjos em qualquer estilo musical.',
+      'Tudo direto no ouvido, para você nunca mais depender de cifras.',
     ],
   },
   {
     id: 'module-2',
     title: 'EXERCÍCIOS PROGRESSIVOS QUE FUNCIONAM EM QUALQUER INSTRUMENTO',
     description: [
-      'Do violão ao sax, do teclado à guitarra — os treinos foram pensados para funcionar com qualquer músico, em qualquer contexto.',
+      'Os treinos foram pensados para funcionar com qualquer músico, em qualquer contexto.',
+      'Funciona para violão, teclado, guitarra, saxofone e muito mais.',
     ],
   },
   {
