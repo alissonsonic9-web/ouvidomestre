@@ -107,7 +107,7 @@ export default function ModulesSection() {
                   </div>
                 )}
                 <CardHeader>
-                  <CardTitle className="text-lg font-bold text-primary min-h-[3.5rem]">{module.title}</CardTitle>
+                  <CardTitle className="text-lg font-bold text-primary min-h-[3.5rem] uppercase">{module.title}</CardTitle>
                 </CardHeader>
                 <CardContent className="flex-grow">
                   <ul className="space-y-2">
@@ -152,7 +152,7 @@ export default function ModulesSection() {
                           </div>
                         )}
                         <CardHeader>
-                          <CardTitle className="text-lg font-bold text-primary min-h-[3.5rem]">{module.title}</CardTitle>
+                          <CardTitle className="text-lg font-bold text-primary min-h-[3.5rem] uppercase">{module.title}</CardTitle>
                         </CardHeader>
                         <CardContent className="flex-grow">
                           <ul className="space-y-2">
