@@ -61,18 +61,18 @@ const modulesData = [
   },
   {
     id: 'module-7',
-    title: 'Módulo 7 – Guia para Transformar Qualquer Música em Aprendizado Técnico',
+    title: 'Guia para Transformar Qualquer Música em Aprendizado Técnico',
     description: [
-      'Extraia solos, levadas e arranjos de qualquer música.',
+      'Aprenda a tirar solos, arranjos, levadas e acordes mesmo quando parecer difícil.',
       'Abordagem que respeita seu tempo de evolução.',
     ],
   },
   {
     id: 'module-8',
-    title: 'Módulo 8 – Método Flexível para Quem Toca em Diferentes Ambientes',
+    title: 'Método Aplicável para Quem Toca Sozinho, em Grupo, na Igreja ou em Barzinhos',
     description: [
-      'Aplique o método sozinho, em grupo, na igreja ou em bares.',
-      'Conteúdo versátil para estudo ou para ensinar.',
+      'O material é flexível para se adaptar a qualquer ambiente musical.',
+      'Sirva para você mesmo ou para usar com seus alunos, se for professor.',
     ],
   },
 ];
@@ -148,7 +148,7 @@ export default function ModulesSection() {
                           </div>
                         )}
                         <CardHeader>
-                          <CardTitle className="text-lg font-bold text-primary min-h-[3.5rem] uppercase">{module.title}</CardTitle>
+                          <CardTitle className="text-lg font-bold text-primary min-h-[3-5rem] uppercase">{module.title}</CardTitle>
                         </CardHeader>
                         <CardContent className="flex-grow">
                           <ul className="space-y-2">
