@@ -29,19 +29,18 @@ const modulesData = [
   },
   {
     id: 'module-3',
-    title: 'Módulo 3 – Estufa de Percepção Auditiva na Prática',
+    title: 'Estudo completo de percepção auditiva na prática',
     description: [
-      'Aprenda a separar instrumentos dentro de uma música.',
-      'Desenvolva sensibilidade para timbres e frequências.',
-      'Reconheça as intensidades e nuances sonoras.',
+      'Você vai aprender a separar instrumentos numa música, reconhecer timbres, frequências, amplitudes.',
+      'E aplicar isso de forma musical — nada teórica.',
     ],
   },
   {
     id: 'module-4',
-    title: 'Módulo 4 – Treinamento de Escuta com Músicas Reais',
+    title: 'Treinamento de escuta com músicas reais',
     description: [
-      'Pratique com músicas de Cartola, Djavan e Lulu Santos.',
-      'Aplique o aprendizado tocando junto com canções de verdade.',
+      'Exercícios práticos com músicas como Garota de Ipanema, Lulu Santos, Djavan, Cartola e mais.',
+      'Para você treinar ouvindo e executando.',
     ],
   },
   {
